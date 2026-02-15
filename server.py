@@ -5,11 +5,7 @@ Flask application for emotion detection.
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 
-app = Flask(
-    __name__,
-    template_folder="oaqjp-final-project-emb-ai/templates",
-    static_folder="oaqjp-final-project-emb-ai/static"
-)
+app = Flask(__name__)
 
 
 @app.route("/emotionDetector")
