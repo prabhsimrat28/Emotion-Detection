@@ -3,10 +3,10 @@ This project is a Flask-based web application that performs emotion analysis on 
 The backend server processes user-submitted text, sends a request to an emotion analysis API, extracts emotion scores from the response, and determines the dominant emotion. The results are returned in JSON format and displayed dynamically on the frontend.
 
 Features
-Accepts user text input via a web interface
-Sends HTTP request to external emotion analysis API
-
-Extracts:
-Emotion scores (e.g., joy, anger, sadness, etc.)
-Most dominant emotion
-Returns structured JSON response
+1. Accepts user text input via a web interface
+2. Sends HTTP request to external emotion analysis API
+  Extracts:
+    1. Emotion scores (e.g., joy, anger, sadness, etc.)
+    2. Most dominant emotion
+    3. Returns structured JSON response
+    4. Displays results dynamically using JavaScript
